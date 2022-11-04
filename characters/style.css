@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+figure {
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+figure img{
+
+    max-height: 12rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+figcaption {
+    padding: .5rem;
+    background-color: #645045;
+    text-align: center;
+    justify-content: center;
+   margin: auto;
+}
+
+body {
+    background-image: url(../images/starwarsbackground.jpg);
+    color: white;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    height: max-content;
+}
+
+
+button {
+    width: 14rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color: #d0b7ae;
+    color: black;
+    font-size: large;
+    border-radius: 15px;
+    box-shadow: white;
+    
+    
+    
+
+}
+
+button:hover{
+    background-color: #645045; 
+    color: white;
+}

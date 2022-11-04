@@ -54,6 +54,8 @@
    display: flex;
    justify-content: center;
    background-color: #FFEDE6;
+   flex-direction: row;
+   
 
 }
 
@@ -64,7 +66,7 @@
 }
 
 figure {
-    margin: 0;
+    margin: 2rem;
     max-width: 300px;
     display: flex;
     flex-direction: column;
@@ -72,6 +74,11 @@ figure {
 
 figure img { 
     max-width: 300px;
+}
+
+img {
+   max-width: 100%;
+   height: 300px;
 }
 
 figcaption {

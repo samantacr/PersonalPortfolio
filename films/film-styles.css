@@ -1,0 +1,49 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+ html {
+
+    box-sizing: border-box;
+ }
+
+ body {
+    background-image: url(../images/starwarsbackground.jpg);
+   color: white;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ 
+header {
+  text-align: center;
+  font-size: 2em;
+  padding: 1.5rem;
+  background-color: #d0b7ae;
+  color:#504138
+}
+
+ main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+ }
+
+ figcaption {
+   padding: 1rem;
+   background-color: #645045;
+   text-align: center;
+   justify-content: center;
+   width: 370px;
+   margin: auto;
+ }
+   img {
+   padding: 1.5rem;
+   
+  }
+
+ figcaption {
+   
+   color: white;
+ }
