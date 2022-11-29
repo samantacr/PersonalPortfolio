@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Star Wars Starships</title>
+</head>
+<body>
+   <header>
+    <h1>Starships of Star Wars</h1>
+   </header>
+   <main>
+    <nav>
+        <ul class="navList"></ul>
+
+    </nav>
+    <section class="shipViewer"></section> 
+   </main>
+   <!--here is where the modal goes. Initially, it is not visible-->
+   <div class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-content">
+     <div>
+        <h2 class="box">Your ship is unavailable</h2>
+     </div>
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+  </div>
+   <footer>
+
+   </footer>
+    <script src="sw-starships.js" type="module"></script>
+</body>
+</html>

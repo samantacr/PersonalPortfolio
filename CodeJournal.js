@@ -96,10 +96,97 @@ const myArrowFunction = () => {
     return "Some value"
 }
 
+// filter method example. Filter returns an array of all elements that 'pass the test'
 
+const pilots = [
+{
+    id: 2,
+    name: "Wedge Antilles",
+    faction: "Rebels"
+},
+{
+    id: 8,
+    name: "Ciena Ree",
+    faction: "Empire"
+},
+{
+    id: 40,
+    name: "Iden Versio",
+    faction: "Empire"
+},
+{ 
+    id: 66,
+    name: "Thane Kyrell",
+    faction: "Rebels"
+} 
+]
 
+const rebels = pilots.filter(pilot => pilot.faction === 'Rebels')
 
+const empire = pilots.filter((pilot) => {
+    return pilot.faction === 'Empire'
 
+})
+
+// Array map method example 
+
+let filmURLs = [
+    "https://swapi.co/api/films/",
+    "https://swapi.co/api/films/5/",
+    "https://swapi.co/api/films/4/this one is longer ... even longer",
+    "https://swapi.co/api/films/6/",
+    "https: ",
+    "https://swapi.co/api/films/1/" 
+
+]
+
+const filmLengths = filmURLs.map(filmURL => filmURL.length)
+
+const filmPlusMore = filmURLs.map(filmURL => {
+    let filmObj = {
+        url: filmURL,
+        createdDate: Date.now()
+
+    }
+    return filmObj
+})
+const pilotNames = pilots.map(pilot => pilot.name)
+
+//Ternary operator syntax: condition ? exprIfTrue : exprIfFalse
+
+const middleName = senator.middle_name ? senator.middle_name : ''
+
+//reduce example
+
+const swpilots = [
+    {
+        id: 10,
+        name: "Poe Dameron",
+        years: 14
+    },
+    {
+        id: 8,
+        name: "Ciena Ree",
+        faction: "Empire"
+    },
+    {
+        id: 2,
+        name: "Temmin 'Snap' Wexley",
+        years: 30
+    },
+    { 
+        id: 41,
+        name: "Tallissan Lintra ",
+        years: 16
+    },
+    { 
+        id: 99,
+        name: "Ello Asty",
+        years: 22   
+    },
+]
+
+const totalYears = swpilots.reduce((acc, pilot) => acc + pilot.years, 0)
 
 
 
