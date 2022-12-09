@@ -14,12 +14,11 @@ const vacationerSpan = document.querySelector('#vacationer')
 
 
 const mostSeniorMember = simplifiedMembers(allCongressMembers).reduce((acc, member) => {
-return acc.seniority > senator.seniority ? acc : member
+return acc.seniority > member.seniority ? acc : member
 })
 
-const biggestVacationer = simplifiedMember(allCongressMembers).reduce((acc, member) => {
-return missedVotesPct > member.missedVotesPct? acc : member
-
+const biggestVacationer = simplifiedMembers(allCongressMembers).reduce((acc, member) => {
+return acc.missedVotesPct > member.missedVotesPct ? acc : member
 })
 
 seniorMemberSpan.textContent = mostSeniorMember.name
