@@ -2,19 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+   
 }
+
+header h1 {
+    text-align: center;
+    color: rgba(131, 94, 64, 0.863);
+}
+
+header {
+    text-align:center;
+}
+
+.filterArea {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgba(224, 181, 111, 0.2);
+
+}
+
+fieldset {
+margin-top: 1rem;
+padding: 1rem;
+margin-bottom: 1rem;
+
+
+}
+
 
 .membersDiv {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .scene {
     width: 200px;
-    height: 260px;
-    border: 1px solid #ccc;
-    margin: 40px 0;
+    height: 270px;
+    margin: 2rem .25rem;
     perspective: 600px;
+    border-radius: 10px;
 }
 
 .card {
@@ -24,6 +53,7 @@
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
+    border-radius: 10px;
 }
 
 .card.is-flipped {
@@ -35,13 +65,41 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
+    border-radius: 10px;
+    
 }
 
 .card__face--front {
-    background: red;
+    background: rgb(188, 161, 134);
+    border-radius: 10px;
 }
 
 .card__face--back {
-    background: blue;
+    background: rgb(64, 40, 78);
     transform: rotateY(180deg);
+    border-radius: 10px;
+}
+
+.republican {
+    border: 1px solid rgb(124, 78, 78);
+}
+
+.democrat {
+    border: 1px solid rgb(97, 58, 87);
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(152, 124, 139, 0.5);
+    color: #EEE;
+
 }
