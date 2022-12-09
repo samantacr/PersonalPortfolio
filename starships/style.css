@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 
+header {
+    font-size: 40px;
+   text-align: center;
+    background-color: black;
+
+}
+
+
 main {
     display: flex;
+    background-color: rgb(64, 42, 62);
 }
 
 .shipViewer {
-    background-color: aqua;
-    height: 100vh;
+    background-color: rgb(131, 93, 151);
+    height: 50vh;
 }
 
 .navList {

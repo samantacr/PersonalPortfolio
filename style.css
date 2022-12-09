@@ -55,6 +55,7 @@
    justify-content: center;
    background-color: #FFEDE6;
    flex-direction: row;
+   flex-wrap: wrap;
    
 
 }
