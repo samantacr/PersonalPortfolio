@@ -10,9 +10,21 @@
 <body>
     <header>
 <h1> Welcome to my members of Congress page!</h1>  
-<div>
-<h3>The most senior member of congress is <span id="seniorMember"></span></h3>
-<h3>The biggest vacation in the entire congress is <span id="vacationer"></span></h3>
+<div class="facts">
+    <div class="singleMemberDiv">
+<h3>
+    Most senior member of congress: 
+    <span id="seniorMember"></span>
+</h3>
+<img id="seniorMemberImg"/>
+    </div>
+    <div class="singleMemberDiv">
+<h3>
+    Biggest vacationer in congress:
+    <span id="vacationer"></span>
+</h3>
+<img id="vacationerImg"/>
+</div>
 <ul id="loyalMembers"></ul>
 </div>
 <section class="filterArea">
@@ -37,12 +49,14 @@
  <div>
     <input type="radio" id="repubs" name="party">
     <label for="repubs">Republicans</label>
+    
 </div>
 
  <div>
     <input type="radio" id="dems" name="party">
     <label for="dems">Democrats</label>
 </div>
+<button id="partyReset" class="resetButton">Reset</button>
 </fieldset>
 
 
@@ -57,6 +71,7 @@
         <input type="radio" id="men" name="gender">
         <label for="men">Male</label>
     </div>
+    <button id="genderReset" class="resetButton">Reset</button>
     </fieldset>
 </fieldset>
 </section>
