@@ -8,6 +8,26 @@
 
 body {
     background-image: url(../images/americanflag.jpg);
+    flex-wrap: wrap;
+   
+}
+
+h3 img{
+    flex-direction: column; 
+}
+
+
+li {
+    text-align: left;
+   
+  
+   
+}
+
+li::marker {
+    background: red;
+    padding-right: 100px;
+    
 }
 
 
@@ -19,6 +39,9 @@ header h1 {
 
 h3 {
     padding: 12px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(49, 6, 6);
 }
 
 
@@ -33,7 +56,6 @@ header {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 
 
 .filterArea {
@@ -147,6 +169,7 @@ figcaption {
     text-align: center;
     font-weight: 700;
     color: white;
+    gap: 40px;
     
 }
 

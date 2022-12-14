@@ -22,6 +22,14 @@ color: white;
 
 }
 
+h2.box {
+    text-align: center;
+    color: rgb(122, 76, 122);
+    background-color: beige;
+    font-weight: 600;
+}
+
+
 main {
     display: flex;
     /*background-color: rgb(64, 42, 62);*/
