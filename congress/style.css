@@ -6,11 +6,21 @@
    
 }
 
+body {
+    background-image: url(../images/americanflag.jpg);
+}
+
+
 header h1 {
    text-align: center;
-    color: rgba(131, 94, 64, 0.863);
+    color: rgba(83, 68, 34, 0.863);
     padding: 10px;
 }
+
+h3 {
+    padding: 12px;
+}
+
 
 header {
     text-align: center;
@@ -77,6 +87,13 @@ background-color: rgb(173, 150, 133);
     border-radius: 10px;
 }
 
+
+ .card:hover {
+    box-shadow: 10px 10px 20px rgba(0,2,2,0.8);
+
+}
+
+
 .card.is-flipped {
     transform: rotateY(180deg);
 }
@@ -96,8 +113,7 @@ background-color: rgb(173, 150, 133);
 }
 
 .card__face--back {
-    background: linear-gradient(160deg, #16498b 0%, #870d17 100%);
-    
+    background: linear-gradient(160deg, #2a4d7b 0%, #804045 100%);
     transform: rotateY(180deg);
     border-radius: 10px;
 }
@@ -111,12 +127,12 @@ padding: .5rem;
 
 .republican {
     border: 1px solid rgb(124, 78, 78);
-    background-color: rgb(199, 48, 48);
+    background-color: rgb(148, 63, 63);
 }
 
 .democrat {
     /*border: 1px solid rgb(55, 55, 81);*/
-    background-color: blue;
+    background-color: rgb(60, 60, 131);
     
 }
 
@@ -130,6 +146,7 @@ figure img {
 figcaption {
     text-align: center;
     font-weight: 700;
+    color: white;
     
 }
 

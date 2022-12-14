@@ -19,10 +19,10 @@ figure {
 }
 
 figure img{
-
     max-width: 200px;
-
+    
 }
+
 
 header {
     display: flex;
@@ -37,7 +37,7 @@ figcaption {
     background-color: #645045;
     text-align: center;
     justify-content: center;
-   margin: auto;
+    margin: auto;
 }
 
 body {

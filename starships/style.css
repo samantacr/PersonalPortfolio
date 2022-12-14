@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     font-size: 40px;
    text-align: center;
@@ -11,15 +12,28 @@ header {
 
 }
 
+a {
+    color:  rgb(255, 199, 30);
+}
+
+
+h1 {
+color: white;
+
+}
 
 main {
     display: flex;
-    background-color: rgb(64, 42, 62);
+    /*background-color: rgb(64, 42, 62);*/
+    background-image: url(../images/purplegalaxy.jpg);
+    
 }
 
+
 .shipViewer {
-    background-color: rgb(131, 93, 151);
+    background-color: rgb(255, 199, 30);
     height: 0vh;
+   
 }
 
 .navList {
